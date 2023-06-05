@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="formulario.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900" rel="stylesheet">
+  <style>
+    /* Estilos CSS omitidos por brevidade */
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="form_area">
+      <h2 class="title">Material Gráfico para Retratar o Perfil Profissional da Sua Empresa</h2>
+      <p class="sub_title">Traz as demandas e necessidades de sua instituição?</p>
+      <div class="form_group">
+        <button class="label" onclick="selectOption('A', this)">
+          <span class="indicator">A</span> Sintetizou o que conversamos
+        </button><br>
+        <button class="label" onclick="selectOption('B', this)">
+          <span class="indicator">B</span> Acho que poderíamos aprimorar mais
+        </button><br>
+        <button class="btn" onclick="submitForm(this)">SIGN UP!</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+  <script src="app.js"></script>
+  
+</body>
+</html>
